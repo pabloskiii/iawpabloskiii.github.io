@@ -14,3 +14,6 @@ una vez añadidos todos los ficheros que necesitemos podemos implementarlo en gi
 ```
 subir a github: docker run --rm -it -v ~/.ssh:/root/.ssh -v "$PWD":/docs squidfunk/mkdocs-material gh-deploy
 ```
+despues solo restaria activar github pages en los ajustes del repositorio y acceder con la direccion indicada
+
+![image](https://user-images.githubusercontent.com/60846344/120934916-a3fb1280-c700-11eb-8f5b-1f5f7b9b3a33.png)
